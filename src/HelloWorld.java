@@ -3,17 +3,18 @@
     public class HelloWorld {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
-            System.out.print("Введите число: ");
-            double t = new Scanner(System.in).nextDouble();
-            double x = 10;
-            double y = 5;
-            double z = 9.5;
-            if (t==x | t==y | t==z) {
-                System.out.println("Данное значение имеется в константах");
+            System.out.print("Введите размер массива: ");
+            int  t = new Scanner(System.in).nextInt();
+            double  sample[] = new double [t];
+            int i;
+            for (i=0; i<t; i++) {
+                System.out.print("Введите число в массив: ");
+                double  num = new Scanner(System.in).nextDouble();
+                sample[i] = num;
             }
-            else {
-                System.out.println("Такой константы нет!");
-                }
+            for (i=0; i<t; i++)
+                System.out.println("Элемент[" + i + "]:" + sample[i]*2);
+
                  sc.close();
             }
         }
