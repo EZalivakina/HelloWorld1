@@ -3,12 +3,23 @@
     public class HelloWorld {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
-            for (int i = 1; i <= 50; i++) {
-                System.out.println(i);
-                sc.close();
+            System.out.print("Введите число: ");
+            double x = new Scanner(System.in).nextInt();
+            System.out.print("Введите число: ");
+            double y = new Scanner(System.in).nextInt();
+            System.out.print("Введите число: ");
+            double z = new Scanner(System.in).nextInt();
+            double avsum = (x+y+z)/3;
+            System.out.println(avsum);
+            int sum = (int)(avsum /= 2);
+            if (sum>3) {
+                System.out.println("Программа выполнена корректно");
+            }
+                 sc.close();
             }
 
+
         }
-    }
+
 
 
