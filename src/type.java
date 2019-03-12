@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class type {
     public static void main(String[] args) {
-        System.out.print("Введите число: ");
+        System.out.print("Введите целое число: ");
         String S = new Scanner(System.in).nextLine();
         int X = Integer.parseInt(S);
         double Y = X;

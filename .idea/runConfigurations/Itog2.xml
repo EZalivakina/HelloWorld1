@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="zadacha4" type="Application" factoryName="Application" nameIsGenerated="true">
-    <option name="MAIN_CLASS_NAME" value="zadacha4" />
+  <configuration default="false" name="Itog2" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="Itog2" />
     <module name="Java" />
     <method v="2">
       <option name="Make" enabled="true" />
