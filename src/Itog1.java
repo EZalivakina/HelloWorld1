@@ -8,7 +8,6 @@ public class Itog1 {
         char c;
         for (int i = 0; i < str.length(); i++) {
             c = str.charAt(str.length() - 1 - i);
-
             if(c == '1' || c == '0') {
                 if (c == '1')
                     a[i] = 1;
